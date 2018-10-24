@@ -12,10 +12,6 @@ self.__precacheManifest = [
     "url": "/react-landing-page/static/media/cooling-tower.46ba8d5a.jpg"
   },
   {
-    "revision": "20a99c0383beb00c78cdd8f9af625180",
-    "url": "/react-landing-page/static/media/climate-change.20a99c03.jpg"
-  },
-  {
     "revision": "959c3028702d48359fbe94780ad92c81",
     "url": "/react-landing-page/static/media/air-pollution.959c3028.jpg"
   },
@@ -24,19 +20,19 @@ self.__precacheManifest = [
     "url": "/react-landing-page/static/js/runtime~main.fef35db4.js"
   },
   {
-    "revision": "a56b039a07457a76d727",
-    "url": "/react-landing-page/static/js/main.a56b039a.chunk.js"
+    "revision": "dcce13cf8cad8e36a2a7",
+    "url": "/react-landing-page/static/js/main.dcce13cf.chunk.js"
   },
   {
-    "revision": "5295d1a518a8596fa5e5",
-    "url": "/react-landing-page/static/js/1.5295d1a5.chunk.js"
+    "revision": "8314d9aa0f4fb3f107df",
+    "url": "/react-landing-page/static/js/1.8314d9aa.chunk.js"
   },
   {
-    "revision": "a56b039a07457a76d727",
-    "url": "/react-landing-page/static/css/main.5533da86.chunk.css"
+    "revision": "dcce13cf8cad8e36a2a7",
+    "url": "/react-landing-page/static/css/main.0cc3e439.chunk.css"
   },
   {
-    "revision": "7904054b984ade182febdfaa0e12f598",
+    "revision": "08a11b73a9160106a1ed0442f3c77b6e",
     "url": "/react-landing-page/index.html"
   }
 ];
