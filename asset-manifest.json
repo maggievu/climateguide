@@ -1,7 +1,7 @@
 {
   "main.css": "/react-landing-page/static/css/main.f92abd55.chunk.css",
-  "main.js": "/react-landing-page/static/js/main.9ffd4d98.chunk.js",
-  "main.js.map": "/react-landing-page/static/js/main.9ffd4d98.chunk.js.map",
+  "main.js": "/react-landing-page/static/js/main.a5f5dc62.chunk.js",
+  "main.js.map": "/react-landing-page/static/js/main.a5f5dc62.chunk.js.map",
   "static/js/1.fc1bc6e8.chunk.js": "/react-landing-page/static/js/1.fc1bc6e8.chunk.js",
   "static/js/1.fc1bc6e8.chunk.js.map": "/react-landing-page/static/js/1.fc1bc6e8.chunk.js.map",
   "runtime~main.js": "/react-landing-page/static/js/runtime~main.fef35db4.js",
@@ -12,6 +12,6 @@
   "static/media/air-pollution.jpg": "/react-landing-page/static/media/air-pollution.959c3028.jpg",
   "static/css/main.f92abd55.chunk.css.map": "/react-landing-page/static/css/main.f92abd55.chunk.css.map",
   "index.html": "/react-landing-page/index.html",
-  "precache-manifest.a644d7fbf74ed11a7c03f937539c5bb9.js": "/react-landing-page/precache-manifest.a644d7fbf74ed11a7c03f937539c5bb9.js",
+  "precache-manifest.cbf14abd618900aad53e6947e546f83b.js": "/react-landing-page/precache-manifest.cbf14abd618900aad53e6947e546f83b.js",
   "service-worker.js": "/react-landing-page/service-worker.js"
 }
