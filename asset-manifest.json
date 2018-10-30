@@ -1,9 +1,9 @@
 {
   "main.css": "/react-landing-page/static/css/main.22d08b00.chunk.css",
-  "main.js": "/react-landing-page/static/js/main.074e5c0c.chunk.js",
-  "main.js.map": "/react-landing-page/static/js/main.074e5c0c.chunk.js.map",
-  "static/js/1.56205fd2.chunk.js": "/react-landing-page/static/js/1.56205fd2.chunk.js",
-  "static/js/1.56205fd2.chunk.js.map": "/react-landing-page/static/js/1.56205fd2.chunk.js.map",
+  "main.js": "/react-landing-page/static/js/main.1476a0aa.chunk.js",
+  "main.js.map": "/react-landing-page/static/js/main.1476a0aa.chunk.js.map",
+  "static/js/1.58df0016.chunk.js": "/react-landing-page/static/js/1.58df0016.chunk.js",
+  "static/js/1.58df0016.chunk.js.map": "/react-landing-page/static/js/1.58df0016.chunk.js.map",
   "runtime~main.js": "/react-landing-page/static/js/runtime~main.fef35db4.js",
   "runtime~main.js.map": "/react-landing-page/static/js/runtime~main.fef35db4.js.map",
   "static/media/search-solid.svg": "/react-landing-page/static/media/search-solid.aeab848c.svg",
@@ -12,6 +12,6 @@
   "static/media/air-pollution.jpg": "/react-landing-page/static/media/air-pollution.959c3028.jpg",
   "static/css/main.22d08b00.chunk.css.map": "/react-landing-page/static/css/main.22d08b00.chunk.css.map",
   "index.html": "/react-landing-page/index.html",
-  "precache-manifest.dac30ffd0b19e7abcc5a8d6dcd889759.js": "/react-landing-page/precache-manifest.dac30ffd0b19e7abcc5a8d6dcd889759.js",
+  "precache-manifest.f7dfd81686cdccb8dcf74f21738706cc.js": "/react-landing-page/precache-manifest.f7dfd81686cdccb8dcf74f21738706cc.js",
   "service-worker.js": "/react-landing-page/service-worker.js"
 }
