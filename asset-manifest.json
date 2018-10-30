@@ -1,7 +1,7 @@
 {
-  "main.css": "/react-landing-page/static/css/main.075bec5f.chunk.css",
-  "main.js": "/react-landing-page/static/js/main.c4fd8829.chunk.js",
-  "main.js.map": "/react-landing-page/static/js/main.c4fd8829.chunk.js.map",
+  "main.css": "/react-landing-page/static/css/main.22d08b00.chunk.css",
+  "main.js": "/react-landing-page/static/js/main.074e5c0c.chunk.js",
+  "main.js.map": "/react-landing-page/static/js/main.074e5c0c.chunk.js.map",
   "static/js/1.56205fd2.chunk.js": "/react-landing-page/static/js/1.56205fd2.chunk.js",
   "static/js/1.56205fd2.chunk.js.map": "/react-landing-page/static/js/1.56205fd2.chunk.js.map",
   "runtime~main.js": "/react-landing-page/static/js/runtime~main.fef35db4.js",
@@ -10,8 +10,8 @@
   "static/media/deforestation.jpg": "/react-landing-page/static/media/deforestation.e0b0bd1b.jpg",
   "static/media/cooling-tower.jpg": "/react-landing-page/static/media/cooling-tower.46ba8d5a.jpg",
   "static/media/air-pollution.jpg": "/react-landing-page/static/media/air-pollution.959c3028.jpg",
-  "static/css/main.075bec5f.chunk.css.map": "/react-landing-page/static/css/main.075bec5f.chunk.css.map",
+  "static/css/main.22d08b00.chunk.css.map": "/react-landing-page/static/css/main.22d08b00.chunk.css.map",
   "index.html": "/react-landing-page/index.html",
-  "precache-manifest.92c599064d48213f3390c027ad008297.js": "/react-landing-page/precache-manifest.92c599064d48213f3390c027ad008297.js",
+  "precache-manifest.dac30ffd0b19e7abcc5a8d6dcd889759.js": "/react-landing-page/precache-manifest.dac30ffd0b19e7abcc5a8d6dcd889759.js",
   "service-worker.js": "/react-landing-page/service-worker.js"
 }
