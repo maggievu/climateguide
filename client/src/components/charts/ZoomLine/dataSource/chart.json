@@ -1,0 +1,14 @@
+{
+
+    "caption": "Global Surface Temperature",
+
+    "subcaption": "Click & drag on the plot area to zoom & then scroll",
+
+    "yaxisname": "Temperature Anomaly (C)",
+    "yAxisMinValue": -0.5,
+
+    "xaxisname": "Year",
+
+
+    "theme": "candy"
+}

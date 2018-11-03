@@ -1,0 +1,43 @@
+/*******************************************************************/
+/*                                                                 */
+/*                       FOOTER LAYOUT                             */
+/*                                                                 */
+/*******************************************************************/
+
+.site-footer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-top: 5rem;
+    position: relative;
+
+    &:before {
+        content: "";
+        height: 100%;
+        // background: linear-gradient(to bottom right, $color__hippie-pink, $color__bossanova);
+        background: $color__hippie-pink;
+        position: absolute;
+        width: 200vw;
+        left: -50vw;
+        right: 50vw;
+        z-index: -1;
+    }
+
+    ul {
+        list-style: none;
+        @include margin-y(0);
+        @include padding-y(1rem);
+        display: flex;
+        flex-flow: row nowrap;
+
+        li {
+            @include padding-x(.5rem);
+        }
+    }
+
+}
+
+
+/*******************************************************************/
+/* ================= end of footer layout ======================== */
+/*******************************************************************/

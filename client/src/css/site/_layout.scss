@@ -1,0 +1,21 @@
+@import '_header.scss';
+@import '_main.scss';
+@import '_footer.scss';
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // justify-content: center;
+    // position: relative;
+
+    .site {
+        max-width: 1000px;
+        margin: auto;
+    }
+}

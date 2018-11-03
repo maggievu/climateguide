@@ -1,0 +1,52 @@
+{
+    "baseFont": "Fira Sans",
+    "baseFontSize": 13,
+    "baseFontColor": "#999ca5",
+    "outCnvBaseFontSize": 14,
+    "outCnvBaseFontColor": "#999ca5",
+
+    "caption": "Global Surface Temperature",
+    "CaptionFontColor": "#f6f6f6",
+    "captionFontSize": 18,
+    "captionFontBold": false,
+    "alignCaptionWithCanvas": false,
+
+    "subcaption": "Click & drag on the plot area to zoom & then scroll",
+    "subCaptionFontColor": "#999ca5",
+    "subcaptionFontSize": 14,
+
+    "yaxisname": "Temperature Anomaly (C)",
+    "yAxisNameFontBold": false,
+    "yAxisMinValue": -0.5,
+
+    "xaxisname": "Year",
+    "xAxisNameFontBold": false,
+
+    "forceaxislimits": "1",
+    "pixelsperpoint": "0",
+    "pixelsperlabel": "30",
+    "compactdatamode": "1",
+    "dataseparator": ",",
+
+    "palette": 3,
+    "bgColor": "#262a33",
+    "bgAlpha": 100,
+    "canvasBgAlpha": 0,
+    "showcanvasborder": 0,
+    "showAlternateHGridColor": false,
+    "divLineColor": "#444",
+    "useCrossLine": true,
+    "paletteThemeColor": "999ca5",
+
+    "legendItemFontSize": 14,
+    "legendbgalpha": 0,
+    "legendborderalpha": 0,
+    "legendIconScale": 2,
+    "legendIconBorderThickness": 5,
+    "legendIconBgColor": "#262a33",
+    "legendAllowDrag": true,
+
+    "scrollColor": "#ababab",
+    "flatscrollbars": true,
+    "paletteColors": "#ff6600, #ff0000"
+}

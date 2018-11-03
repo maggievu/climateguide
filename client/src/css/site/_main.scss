@@ -1,0 +1,101 @@
+/*******************************************************************/
+/*                                                                 */
+/*                       MAIN LAYOUT                             */
+/*                                                                 */
+/*******************************************************************/
+
+.site-main {
+    min-height: 65vh;
+
+    h2 {
+        text-align: center;
+        margin-top: 5rem;
+    }
+
+    .img-container {
+        position: relative;
+
+        .img-description {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+
+            background: rgba(0,0,0,.8);
+            color: white;
+            text-align: center;
+            @include margin-y(0);
+            @include padding-x(3rem);
+            @include padding-y(3rem);
+
+            opacity: 0;
+            transition: opacity .5s 2s ease;
+
+            h3 {
+                font-size: 2rem;
+            }
+        }
+
+        &:hover .img-description {
+            opacity: 1;
+            transition: opacity .5s ease;
+        }
+    }
+
+    .contact-form {
+        label {
+            display: block;
+            @include margin-y(1rem);
+
+            span {
+                display: inline-block;
+                width: 15%;
+                text-align: right;
+                padding-right: 1rem;
+                box-sizing: border-box;
+            }
+        }
+
+        input:not([type="checkbox"]):not([type="submit"]), textarea {
+            width: 80%;
+            border-radius: 10px;
+            border: 1px solid $color__bossanova;
+            @include padding-x(.6rem);
+            @include padding-y(.5rem);
+            box-sizing: border-box;
+        }
+
+        textarea {
+            min-height: 10rem;
+        }
+
+        input[type="checkbox"], input[type="submit"] {
+            margin-left: 15%;
+        }
+
+        input[type="submit"] {
+            background-color: initial;
+            border-radius: 10px;
+            border: 1px solid $color__bossanova;
+            @include padding-x(1rem);
+            @include padding-y(.3rem);
+
+            &:hover {
+                background-color: $color__bossanova;
+                color: #fff;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .contact-success-results {
+        border: 2px solid $color__hippie-pink;
+        border-radius: 1rem;
+        @include padding-x(1rem);
+    }
+}
+
+/*******************************************************************/
+/* ================= end of main layout ======================== */
+/*******************************************************************/
