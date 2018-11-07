@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/climateguide/precache-manifest.e5888c9e0b082e58861595f7acfc11b6.js"
+  "/climateguide/precache-manifest.7761750af3127772bb4c7aa7793218a0.js"
 );
 
 workbox.clientsClaim();
