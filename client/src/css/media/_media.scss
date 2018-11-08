@@ -5,12 +5,14 @@
 /*******************************************************************/
 
 img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
 .site-main .img-container {
     img {
         display: block;
+        height: 40vw;
+        object-fit: cover;
     }
 }

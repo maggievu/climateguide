@@ -26,6 +26,11 @@ h2 {
     text-transform: uppercase;
 }
 
+h3 {
+    font-size: 2rem;
+    @include margin-y(1rem);
+}
+
 code {
     font-family: $font__code;
 }
