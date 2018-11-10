@@ -5,7 +5,7 @@ import Chart from 'fusioncharts/fusioncharts.zoomscatter';
 // import CandyTheme from 'fusioncharts/themes/fusioncharts.theme.candy';
 
 // import dataCategories from './dataSource/categories.json';
-import dataChart from './dataSource/chart.json';
+import chartConfig from './dataSource/chartConfig.json';
 import dataSet1 from './dataSource/dataset1.json';
 import dataSet2 from './dataSource/dataset2.json';
 
@@ -16,7 +16,7 @@ import dataSet2 from './dataSource/dataset2.json';
 Chart(FusionCharts);
 
 const dataSource = {
-    "chart": dataChart,
+    "chart": chartConfig,
     // "categories": dataCategories,
     "dataset": [
         {
@@ -75,7 +75,7 @@ class ZoomScatter extends Component {
       <ReactFusioncharts
          type = "zoomscatter"
          width = '100%'
-         height = '40%'
+         height = '30%'
          dataFormat = "json"
          dataSource = {dataSource} />
       );

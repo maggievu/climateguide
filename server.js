@@ -1,23 +1,18 @@
 const express = require('express');
 const app = express();
+const request = require('request');
 const port = process.env.PORT || 5000;
+const fs = require('fs');
 
-// Console.log the port Listening at
 app.listen(port, () => console.log(`Listening on port ${port}`));
 
-
-const url = "https://climate.nasa.gov/system/internal_resources/details/original/647_Global_Temperature_Data_File.txt";
-// const url2 = "http://ec2-34-207-252-72.compute-1.amazonaws.com/~LS_user18/test.txt";
-// const https = require('http');
-const fs = require('fs');
+const urlSource= "https://climate.nasa.gov/system/internal_resources/details/original/647_Global_Temperature_Data_File.txt";
 
 let dataArray1 = [];
 let dataArray2 = [];
 
-const request = require('request');
-
-request.get(url, (error, res, body) => {
-    if (!error && res.statusCode == 200) {
+request.get(urlSource, (error, respond, body) => {
+    if (!error && respond.statusCode == 200) {
 
         // loop through the lines of body of txt file then push elements of lines to dataArray
         for (let line of body.split("\n")) {
@@ -30,11 +25,11 @@ request.get(url, (error, res, body) => {
                 "y": line.split("\t")[2].replace("\r", "")
             });
         }
-
-        // create 2 new JSON files so that react charts can use
-        fs.writeFile('client/src/components/charts/ZoomScatter/dataSource/dataset1.json', JSON.stringify(dataArray1), 'utf8');
-        fs.writeFile('client/src/components/charts/ZoomScatter/dataSource/dataset2.json', JSON.stringify(dataArray2), 'utf8');
     }
+
+    // create 2 new JSON files so that react charts can use
+    fs.writeFile('client/src/components/charts/ZoomScatter/dataSource/dataset1.json', JSON.stringify(dataArray1), 'utf8');
+    fs.writeFile('client/src/components/charts/ZoomScatter/dataSource/dataset2.json', JSON.stringify(dataArray2), 'utf8');
 });
 
 // request.get(url2, (error, res, body) => {

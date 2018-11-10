@@ -1,0 +1,23 @@
+[
+    {
+        "index": 0,
+        "id": "causes",
+        "contentH3": "Air Pollution",
+        "content": "One line explaining the cause. Another line makes a meaningful connection to the dislayed image. The last line presents what will happen in the future/long term. Are you paying attention? Are you reading these lines? Then please know you are beautiful, always!",
+        "imgSrc": "/air-pollution.jpg"
+    },
+    {
+        "index": 1,
+        "id": "effects",
+        "contentH3": "Deforestation",
+        "content": "One line explaining the effect. Another line makes a meaningful connection to the dislayed image. The last line presents what will happen in the future/long term. Are you paying attention? Are you reading these lines? Then please know you are beautiful, always!",
+        "imgSrc": "/deforestation.jpg"
+    },
+    {
+        "index": 2,
+        "id": "solutions",
+        "contentH3": "Cooling Tower",
+        "content": "One line explaining the solution. Another line makes a meaningful connection to the dislayed image. The last line presents what will happen in the future/long term. Are you paying attention? Are you reading these lines? Then please know you are beautiful, always!",
+        "imgSrc": "/cooling-tower.jpg"
+    }
+]
